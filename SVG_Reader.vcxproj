@@ -104,12 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\IncludePath\SFML-2.6.2-windows-vc17-64-bit %281%29\SFML-2.6.2\include;D:\IncludePath\boost_1_89_0;D:\IncludePath\rapid;D:\IncludePath\svgpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\includePath\svgpp-master\include;D:\includePath\SFML-2.6.2\include;D:\includePath\RapidXML;D:\includePath\boost_1_89_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\IncludePath\SFML-2.6.2-windows-vc17-64-bit %281%29\SFML-2.6.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\includePath\SFML-2.6.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -133,7 +133,10 @@
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="Ellipse.cpp" />
+    <ClCompile Include="Line.cpp" />
     <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Polygon.cpp" />
+    <ClCompile Include="Polyline.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="SVG_Reader.cpp" />
   </ItemGroup>
@@ -142,6 +145,7 @@
     <ClInclude Include="Color.h" />
     <ClInclude Include="Ellipse.h" />
     <ClInclude Include="Library.h" />
+    <ClInclude Include="Line.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Polygon.h" />
     <ClInclude Include="Polyline.h" />

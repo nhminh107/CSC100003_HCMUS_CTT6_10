@@ -1,5 +1,5 @@
 #pragma once
-
+#include "Library.h"
 class Shape {
 protected:
 	string figure; 
