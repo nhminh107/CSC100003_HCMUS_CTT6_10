@@ -2,7 +2,7 @@
 using namespace std;
 
 
-Ellipse::Ellipse() :Shape() {
+Ellipse::Ellipse() : Shape() {
 	rX = rY = 0;
 	center.setX(0);
 	center.setY(0);
