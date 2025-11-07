@@ -7,13 +7,13 @@ private:
 public: 
 	Point(); 
 	Point(float, float); 
-	float getX; 
-	float getY; 
-	bool getIntersect(); 
+	float getX() const;
+	float getY() const;
+	bool getIntersect() const;
 
 	void setX(float); 
 	void setY(float); 
-	void setIntersect(); 
+	void setIntersect(bool); 
 
 	bool operator==(const Point&); 
 };
