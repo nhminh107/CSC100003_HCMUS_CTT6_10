@@ -131,7 +131,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Color.cpp" />
     <ClCompile Include="Ellipse.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="SVG_Reader.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -18,3 +18,4 @@ using namespace std;
 #include "Shape.h"
 #include "Point.h"
 #include "Circle.h"
+#include "Ellipse.h"
