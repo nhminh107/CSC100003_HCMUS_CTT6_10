@@ -20,3 +20,6 @@ using namespace std;
 #include "Point.h"
 #include "Circle.h"
 #include "Ellipse.h"
+#include"Polygon.h"
+#include"Polyline.h"
+#include"Line.h" 
