@@ -12,8 +12,8 @@ public:
 	void updateAtt() override; 
 
 	Point getCenter(); 
-	float getRX;
-	float getRY; 
+	float getRX();
+	float getRY(); 
 	
 	void setCenter(const Point&); 
 	void setCenter(float, float); 

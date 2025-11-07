@@ -20,5 +20,5 @@ public:
 	void setStrokeColor(const Color&); 
 	void setStrokeWidth(float); 
 	Color getStrokeColor() const { return strokeColor; }
-	float getStorkeWidth() const { return strokeWidth; }
+	float getStrokeWidth() const { return strokeWidth; }
 };

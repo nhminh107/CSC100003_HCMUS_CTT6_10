@@ -2,11 +2,11 @@
 
 class Shape {
 protected:
-	string firgure; 
+	string figure; 
 	string text_name; 
 	Stroke strokeColor; 
 	Color fillColor; 
-	string containData; 
+	string line; 
 	unordered_map<string, Color> mapCol; 
 	
 	void loadColor(); 

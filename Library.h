@@ -11,6 +11,7 @@
 #include <unordered_map>
 #include <vector>
 #include <SFML/Graphics.hpp>
+#include <fstream>
 #include <SFML/Window/KeyBoard.hpp>
 using namespace std;
 

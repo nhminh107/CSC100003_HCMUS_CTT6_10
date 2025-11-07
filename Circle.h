@@ -10,8 +10,8 @@ public:
 	void updateAtt() override; 
 	void Draw(sf::RenderWindow&) const override;
 
-	Point getCenter(); 
-	float getRadius(); 
+	Point getCenter() const;
+	float getRadius() const;
 	void setCenter(float, float);
 	void setCenter(const Point&);
 	void setRadius(float); 

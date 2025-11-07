@@ -1,4 +1,4 @@
-#include "Libary.h"
+#include "Library.h"
 using namespace std;
 
 Point::Point() {
